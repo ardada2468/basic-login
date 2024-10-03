@@ -6,6 +6,7 @@ const App: React.FC = () => {
   const [password, setPassword] = useState('');
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
+  
   // State for input positions
   const [namePos, setNamePos] = useState({ top: 50, left: 50 });
   const [passwordPos, setPasswordPos] = useState({ top: 150, left: 50 });
